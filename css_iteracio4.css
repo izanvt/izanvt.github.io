@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8f0fe;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    background-color: #1565c0;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    padding-left: 0.5cm;
+    padding-right: 0.5cm;
+    ;
+}
+
+.navbar a:hover {
+    color: #90caf9;
+}
+
+.form-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    border: 2px solid #90caf9;
+}
+
+form {
+    display: grid;
+    gap: 15px;
+}
+
+h1 {
+    text-align: center;
+    color: #1e88e5;
+    margin-bottom: 10px;
+}
+
+label {
+    font-weight: bold;
+    color: #1565c0;
+}
+
+input, select, textarea, button {
+    padding: 10px;
+    border: 1px solid #bbdefb;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+input[type="radio"], input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+
+button {
+    background-color: #42a5f5;
+    color: white;
+}
+
+footer {
+    background-color: #e8f0fe;
+    color:#008cff;
+    font-size: larger;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}

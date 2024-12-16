@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<head>
+    <title>Iteración 4 - Selecciona un trabajador</title>
+    <link rel="stylesheet" href="css_iteracio4.css">
+</head>
+<body>
+    <header>
+    <nav class="navbar">
+        <a href="A08LandingPage_iteracio1.html">Pagina Inicial</a>
+        <a href="A08LandingPage_iteracio2.html">Horari</a>
+        <a href="A08LandingPage_iteracio3.html">Galeria</a>
+    </nav>
+    <div class="form-container">
+        <form action="https://alumnat.cat/form" method="POST">
+            <h1>Introduce tu nuevo trabajador</h1>
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos" required>
+
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" name="edad" required>
+
+            <label for="dni">DNI:</label>
+            <input type="text" id="dni" name="dni" required>
+
+            <label for="color">Color preferido:</label>
+            <input type="color" id="color" name="color">
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="estudios">Nivel de estudios:</label>
+            <select id="estudios" name="estudios" required>
+                <option value="no_util" disabled selected>Selecciona</option>
+                <option value="primaria">Primaria</option>
+                <option value="secundaria">Secundaria</option>
+                <option value="universitario">Universitario</option>
+                <option value="CFGM">CFGM</option>
+                <option value="CFGS">CFGS</option>
+            </select>
+
+            <label>Sexo:</label>
+            <div class="radio-group">
+                <label><input type="radio" name="sexo" value="masculino" required> Masculino</label>
+                <label><input type="radio" name="sexo" value="femenino" required> Femenino</label>
+                <label><input type="radio" name="sexo" value="no binario" required> No binario</label>
+            </div>
+
+            <label for="explicacion">Cúentanos porque deberiamos contratarte:</label>
+            <textarea id="explicacion" name="explicacion" rows="10"></textarea>
+
+            <label for="foto">Fotografía:</label>
+            <input type="file" id="foto" name="foto" accept="image/*" required>
+
+            <div class="checkbox-group">
+                <label>
+                    <input type="checkbox" name="privacidad" required>
+                    Estoy de acuerdo con la política de privacidad de la empresa.
+                </label>
+            </div>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <footer>
+        <p>Este formulario ha sido creado por Izan Vilas.</p>
+    </footer>
+</body>
+</html>
